@@ -58,7 +58,7 @@ figure.autolayout : False
 ### Fonts
 font.family: serif
 font.serif: Computer Modern Roman 
-mathtext.setfont: cm
+mathtext.fontset: cm
 #text.usetex : true
 
 ### Saving figures
