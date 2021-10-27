@@ -18,14 +18,11 @@ figure.autolayout : False
 # Set x axis:
 xtick.direction : in
 
-xtick.major.top: True
-xtick.major.bottom: True
+xtick.top : True
 xtick.major.size : 5
 xtick.major.width : 1
 
 xtick.minor.visible : True
-xtick.minor.top: True
-xtick.minor.bottom: True
 xtick.minor.size : 2
 xtick.minor.width : 0.5
 xtick.bottom: True
@@ -38,14 +35,11 @@ ytick.labelsize: large
 # Set y axis:
 ytick.direction : in
 
-ytick.major.top: True
-ytick.major.bottom: True
+ytick.top : True
 ytick.major.size : 5
 ytick.major.width : 1
 
 ytick.minor.visible : True
-ytick.minor.top: True
-ytick.minor.bottom: True
 ytick.minor.size : 2
 ytick.minor.width : 0.5
 ytick.right : True
