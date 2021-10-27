@@ -10,26 +10,26 @@ axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B
 
 # Set x axis
 xtick.direction : in
-xtick.major.size : 3
-xtick.major.width : 0.5
-xtick.minor.size : 1.5
+xtick.major.size : 5
+xtick.major.width : 1
+xtick.minor.size : 2
 xtick.minor.width : 0.5
 xtick.minor.visible : True
 xtick.top : True
 
 # Set y axis
 ytick.direction : in
-ytick.major.size : 3
-ytick.major.width : 0.5
-ytick.minor.size : 1.5
+ytick.major.size : 5
+ytick.major.width : 1
+ytick.minor.size : 2
 ytick.minor.width : 0.5
 ytick.minor.visible : True
 ytick.right : True
 
 # Set line widths
-axes.linewidth : 0.5
+axes.linewidth : 1
 grid.linewidth : 0.5
-lines.linewidth : 1.
+lines.linewidth : 0.7
 
 # Remove legend frame
 legend.frameon : False
