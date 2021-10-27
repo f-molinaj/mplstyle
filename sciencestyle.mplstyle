@@ -41,7 +41,7 @@ savefig.pad_inches : 0.05
 # Use serif fonts
 # font.serif : Times
 font.family : serif
-mathtext.fontset : cm
+# mathtext.fontset : cm
 # mathtext.fontset : dejavuserif
 font.serif: Computer Modern Roman 
 
