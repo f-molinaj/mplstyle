@@ -55,15 +55,37 @@ ytick.minor.pad: 5.0
 xtick.labelsize: large
 
 
-# Set line widths:
+
+# Fontsizes:
+axes.titlesize : 24
+#axes.titlelocation: center  # alignment of the title: {left, right, center}
+
+
+axes.labelsize : 20
+#axes.titlepad:      6.0     # pad between axes and title in points
+#axes.labelsize:     medium  # font size of the x and y labels
+#axes.labelpad:      4.0     # space between label and axis
+#axes.labelweight:   normal  # weight of the x and y labels
+#axes.labelcolor:    black
+
+# Set line widths and colors:
 axes.linewidth : 1
 grid.linewidth : 0.5
 lines.linewidth : 0.7
+axes.facecolor:     white   # axes background color
+#axes.edgecolor:     black   # axes edge color
+#axes.linewidth:     0.8     # edge line width
+#axes.grid:          False   # display grid or not
+#axes.grid.axis:     both    # which axis the grid should apply to
+#axes.grid.which:    major   # grid lines at {major, minor, both} ticks
+
 
 
 # Remove legend frame
 legend.frameon : False
 legend.fontsize: 10
+
+
 
 # Always save as 'tight'
 savefig.bbox : tight
