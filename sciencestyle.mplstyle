@@ -9,6 +9,7 @@ axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B
 
 # Set default figure size:
 #figure.figsize : 3.5, 2.625
+
 figure.subplot.left: 0.125
 figure.subplot.bottom: 0.175
 figure.subplot.top: 0.95
@@ -23,13 +24,13 @@ xtick.major.size : 5
 xtick.major.width : 1
 
 xtick.minor.visible : True
-xtick.minor.size : 2
+xtick.minor.size : 2.5
 xtick.minor.width : 0.5
 xtick.bottom: True
 
 xtick.major.pad: 5.0
 xtick.minor.pad: 5.0
-ytick.labelsize: large
+ytick.labelsize: 8
 
 
 # Set y axis:
@@ -46,16 +47,16 @@ ytick.right : True
 
 ytick.major.pad: 5.0
 ytick.minor.pad: 5.0
-xtick.labelsize: large
+xtick.labelsize: 8
 
 
 
 # Fontsizes:
-axes.titlesize : 24
+axes.titlesize : 20
 #axes.titlelocation: center  # alignment of the title: {left, right, center}
 
 
-axes.labelsize : 20
+axes.labelsize : 12
 #axes.titlepad:      6.0     # pad between axes and title in points
 #axes.labelsize:     medium  # font size of the x and y labels
 #axes.labelpad:      4.0     # space between label and axis
@@ -65,7 +66,7 @@ axes.labelsize : 20
 # Set line widths and colors:
 axes.linewidth : 1
 grid.linewidth : 0.5
-lines.linewidth : 0.7
+lines.linewidth : 1
 axes.facecolor:     white   # axes background color
 #axes.edgecolor:     black   # axes edge color
 #axes.linewidth:     0.8     # edge line width
