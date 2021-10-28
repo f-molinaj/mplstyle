@@ -36,14 +36,13 @@ ytick.labelsize: 8
 # Set y axis:
 ytick.direction : in
 
-ytick.top : True
+ytick.right : True
 ytick.major.size : 5
 ytick.major.width : 1
 
 ytick.minor.visible : True
 ytick.minor.size : 2
 ytick.minor.width : 0.5
-ytick.right : True
 
 ytick.major.pad: 5.0
 ytick.minor.pad: 5.0
