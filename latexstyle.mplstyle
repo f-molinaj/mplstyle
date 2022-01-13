@@ -6,47 +6,64 @@
 axes.prop_cycle : cycler('color', ['0C5DA5', '00B945', 'FF9500', 'FF2C00', '845B97', '474747', '9e9e9e'])
 
 # Set default figure size
-figure.figsize : 3.5, 2.625
+figure.figsize : 5.75, 3.55
 
-# Set x axis
+# Set x axis:
 xtick.direction : in
-xtick.major.size : 3
-xtick.major.width : 0.5
-xtick.minor.size : 1.5
-xtick.minor.width : 0.5
-xtick.minor.visible : True
 xtick.top : True
 
-# Set y axis
+xtick.major.size : 3
+xtick.major.width : 0.5
+
+xtick.minor.visible : True
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.bottom: True
+
+xtick.major.pad: 5.0
+xtick.minor.pad: 5.0
+ytick.labelsize: 8
+
+
+# Set y axis:
 ytick.direction : in
-ytick.major.size : 3
-ytick.major.width : 0.5
-ytick.minor.size : 1.5
-ytick.minor.width : 0.5
-ytick.minor.visible : True
 ytick.right : True
 
-# Set line widths
-axes.linewidth : 0.5
+ytick.major.size : 3
+ytick.major.width : 0.5
+
+ytick.minor.visible : True
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+
+ytick.major.pad: 5.0
+ytick.minor.pad: 5.0
+xtick.labelsize: 8
+
+
+# Fontsizes:
+axes.titlesize : 15
+axes.titlelocation: center  # alignment of the title: {left, right, center}
+axes.labelsize : 12
+
+
+# Grid:
 grid.linewidth : 0.5
-lines.linewidth : 1.
+axes.grid:          True   # display grid or not
+axes.grid.axis:     both    # which axis the grid should apply to
+axes.grid.which:    major   # grid lines at {major, minor, both} ticks
 
-# Remove legend frame
-legend.frameon : False
 
-# Always save as 'tight'
+# Legend frame:
+legend.frameon : True
+legend.fontsize: 8
+
+
+# Always save as 'tight':
 savefig.bbox : tight
 savefig.pad_inches : 0.05
 
-# Use serif fonts
+
+# Use serif fonts:
 font.family : serif
-font.serif: ComputerModern
-#font.serif: Times New Roman
 mathtext.fontset : cm
-
-# Use LaTeX for math formatting
-text.usetex : True
-text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb}
-
-### Saving figures
-path.simplify : True
